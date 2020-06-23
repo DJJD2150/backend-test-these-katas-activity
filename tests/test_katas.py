@@ -31,7 +31,7 @@ class TestKatas(unittest.TestCase):
         self.assertEqual(katas.fibonacci(5), 3)
         self.assertEqual(katas.fibonacci(8), 13)
         self.assertEqual(katas.fibonacci(10), 34)
-        self.assertEqual(katas.fibonacci(), 1)
+        self.assertEqual(katas.fibonacci(2), 1)
 
 
 if __name__ == '__main__':
